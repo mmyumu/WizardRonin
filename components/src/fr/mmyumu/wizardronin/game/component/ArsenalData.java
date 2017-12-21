@@ -1,0 +1,16 @@
+
+package fr.mmyumu.wizardronin.game.component;
+
+import java.io.Serializable;
+
+/**
+ * @author Daan van Yperen
+ */
+public class ArsenalData implements Serializable {
+
+    public String id;
+    public GunData[] guns;
+
+    public ArsenalData() {
+    }
+}

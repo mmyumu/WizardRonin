@@ -1,0 +1,15 @@
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+déc. 21, 2017 11:12:56 AM java.util.prefs.WindowsPreferences <init>
+AVERTISSEMENT: Could not open/create prefs root node Software\JavaSoft\Prefs at root 0x80000002. Windows RegCreateKeyEx(...) returned error code 5.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':html:compileGwt'.
+> Process 'command 'C:\Program Files\Java\jdk1.8.0_144\bin\java.exe'' finished with non-zero exit value 1
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
