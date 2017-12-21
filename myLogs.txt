@@ -1,0 +1,160 @@
+Starting a Gradle Daemon, 1 incompatible Daemon could not be reused, use --status for details
+Configuration on demand is an incubating feature.
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to C:\Users\mlabetaa\AppData\Local\Android\Sdk\ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+Incremental java compilation is an incubating feature.
+The Jetty plugin has been deprecated and is scheduled to be removed in Gradle 4.0. Consider using the Gretty (https://github.com/akhikhl/gretty) plugin instead.
+	at build_dfhxedl8x4r1aqq9h21cn31rr.run(C:\Users\mlabetaa\git\WizardRonin\html\build.gradle:2)
+The Task.leftShift(Closure) method has been deprecated and is scheduled to be removed in Gradle 5.0. Please use Task.doLast(Action) instead.
+	at build_dfhxedl8x4r1aqq9h21cn31rr.run(C:\Users\mlabetaa\git\WizardRonin\html\build.gradle:56)
+:android:preBuild UP-TO-DATE
+:android:preDebugBuild UP-TO-DATE
+:android:checkDebugManifest
+:components:compileJava UP-TO-DATE
+:components:processResources UP-TO-DATE
+:components:classes UP-TO-DATE
+:components:jar UP-TO-DATE
+:core:fluid
+:core:compileJava
+:core:processResources UP-TO-DATE
+:core:classes
+:core:weave
+:core:jar
+:android:prepareDebugDependencies
+:android:compileDebugAidl
+:android:compileDebugRenderscript
+:android:generateDebugBuildConfig
+:android:generateDebugResValues
+:android:generateDebugResources
+:android:mergeDebugResources
+:android:processDebugManifest
+:android:processDebugResources
+:android:generateDebugSources
+:android:incrementalDebugJavaCompilationSafeguard
+:android:javaPreCompileDebug
+:android:compileDebugJavaWithJavac
+:android:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:android:compileDebugNdk UP-TO-DATE
+:android:compileDebugSources
+:android:mergeDebugShaders
+:android:compileDebugShaders
+:android:generateDebugAssets
+:android:mergeDebugAssets
+:android:transformClassesWithDexForDebug
+
+Running dex as a separate process.
+
+To run dex in process, the Gradle daemon needs a larger heap.
+It currently has 1500 MB.
+For faster builds, increase the maximum heap size for the Gradle daemon to at least 1536 MB.
+To do this set org.gradle.jvmargs=-Xmx1536M in the project gradle.properties.
+For more information see https://docs.gradle.org/current/userguide/build_environment.html
+
+:android:mergeDebugJniLibFolders
+:android:transformNativeLibsWithMergeJniLibsForDebug
+:android:processDebugJavaRes UP-TO-DATE
+:android:transformResourcesWithMergeJavaResForDebug
+:android:validateSigningDebug
+:android:packageDebug
+:android:assembleDebug
+:android:preReleaseBuild UP-TO-DATE
+:android:checkReleaseManifest
+:android:prepareReleaseDependencies
+:android:compileReleaseAidl
+:android:compileReleaseRenderscript
+:android:generateReleaseBuildConfig
+:android:generateReleaseResValues
+:android:generateReleaseResources
+:android:mergeReleaseResources
+:android:processReleaseManifest
+:android:processReleaseResources
+:android:generateReleaseSources
+:android:incrementalReleaseJavaCompilationSafeguard
+:android:javaPreCompileRelease
+:android:compileReleaseJavaWithJavac
+:android:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:android:compileReleaseNdk UP-TO-DATE
+:android:compileReleaseSources
+:android:lintVitalRelease
+:android:mergeReleaseShaders
+:android:compileReleaseShaders
+:android:generateReleaseAssets
+:android:mergeReleaseAssets
+:android:transformClassesWithDexForRelease
+:android:mergeReleaseJniLibFolders
+:android:transformNativeLibsWithMergeJniLibsForRelease
+:android:processReleaseJavaRes UP-TO-DATE
+:android:transformResourcesWithMergeJavaResForRelease
+:android:packageRelease
+:android:assembleRelease
+:android:assemble
+:android:lint
+Ran lint on variant debug: 5 issues found
+Ran lint on variant release: 5 issues found
+Wrote HTML report to file:///C:/Users/mlabetaa/git/WizardRonin/android/build/reports/lint-results.html
+Wrote XML report to file:///C:/Users/mlabetaa/git/WizardRonin/android/build/reports/lint-results.xml
+:android:incrementalDebugUnitTestJavaCompilationSafeguard UP-TO-DATE
+:android:javaPreCompileDebugUnitTest
+:android:preDebugUnitTestBuild UP-TO-DATE
+:android:prepareDebugUnitTestDependencies
+:android:compileDebugUnitTestJavaWithJavac UP-TO-DATE
+:android:processDebugUnitTestJavaRes UP-TO-DATE
+:android:compileDebugUnitTestSources UP-TO-DATE
+:android:mockableAndroidJar
+:android:assembleDebugUnitTest
+:android:testDebugUnitTest UP-TO-DATE
+:android:incrementalReleaseUnitTestJavaCompilationSafeguard UP-TO-DATE
+:android:javaPreCompileReleaseUnitTest
+:android:preReleaseUnitTestBuild UP-TO-DATE
+:android:prepareReleaseUnitTestDependencies
+:android:compileReleaseUnitTestJavaWithJavac UP-TO-DATE
+:android:processReleaseUnitTestJavaRes UP-TO-DATE
+:android:compileReleaseUnitTestSources UP-TO-DATE
+:android:assembleReleaseUnitTest
+:android:testReleaseUnitTest UP-TO-DATE
+:android:test UP-TO-DATE
+:android:check
+:android:build
+:components:assemble UP-TO-DATE
+:components:compileTestJava UP-TO-DATE
+:components:processTestResources UP-TO-DATE
+:components:testClasses UP-TO-DATE
+:components:test UP-TO-DATE
+:components:check UP-TO-DATE
+:components:build UP-TO-DATE
+:core:assemble
+:core:compileTestJava UP-TO-DATE
+:core:processTestResources UP-TO-DATE
+:core:testClasses UP-TO-DATE
+:core:test UP-TO-DATE
+:core:check UP-TO-DATE
+:core:build
+:desktop:compileJava
+:desktop:processResources UP-TO-DATE
+:desktop:classes
+:desktop:jar UP-TO-DATE
+:desktop:assemble UP-TO-DATE
+:desktop:compileTestJava UP-TO-DATE
+:desktop:processTestResources UP-TO-DATE
+:desktop:testClasses UP-TO-DATE
+:desktop:test UP-TO-DATE
+:desktop:check UP-TO-DATE
+:desktop:build UP-TO-DATE
+:html:compileJava
+Download https://repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10.pom
+Download https://repo1.maven.org/maven2/org/apache/commons/commons-parent/35/commons-parent-35.pom
+Download https://repo1.maven.org/maven2/org/apache/apache/15/apache-15.pom
+Download https://repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10.jar
+:html:processResources UP-TO-DATE
+:html:classes
+:html:compileGwt
+Loading inherited module 'fr.mmyumu.wizardronin.GdxDefinition'
+   Loading inherited module 'MyGame'
+      [ERROR] Unable to find 'MyGame.gwt.xml' on your classpath; could be a typo, or maybe you forgot to include a classpath entry for source?
+:html:compileGwt FAILED
+
+BUILD FAILED
+
+Total time: 51.447 secs
